@@ -15,7 +15,7 @@ Labels can be referenced by using the label name. For example
 ```
 0 jumpn label
 1 halt
-label
+label:
 2 jumpr r14
 ```
 
