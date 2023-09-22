@@ -141,6 +141,6 @@ options:
 A sample input and output file are provided in the `test.hmmm` and `testo.hmmm` files respectively.
 
 ## Can I use this to complete my homework?
-At the moment, this precompiler has not been allowed to be used to complete homework or other assignments. Please ask your professor if you are allowed to use this precompiler.
+At the moment, this precompiler has not been allowed to be used to complete homework or other assignments. Please ask your professor if you are allowed to use this precompiler. If you get confirmation that you are allowed to use it, please let me know so I can update this section!
 
 The precompiler will also add a line to the beginning of every file that states that the file has been precompiled and lists which features were enabled. This allows professors to easily check if you used the precompiler. Editing or removing this line without permission from your professor is a violation of the HMC Honor Code.
