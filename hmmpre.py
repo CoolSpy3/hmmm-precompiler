@@ -92,6 +92,12 @@ def main():
         for line_num, line in enumerate(lines.copy()):
             lines[line_num] = line_numbers[line_num] + line
 
+    # Make sure all the line numbers are the same length
+    if args.format or args.all:
+        line_num_pattern = re.compile(r'^(\s*)(\d+)(\s+)(.*)$')
+        max_line_num_length = max(len(match.group(2)) for line in lines if (match := line_num_pattern.match(line)))
+        lines = [line_num_pattern.sub(lambda match: match.group(1) + match.group(2).ljust(max_line_num_length) + match.group(3) + match.group(4), line) for line in lines]
+
     # Ensure that all lines end with a newline
     lines = [line + '\n' if not line.endswith('\n') else line for line in lines]
 
