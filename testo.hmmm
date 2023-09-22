@@ -1,0 +1,14 @@
+# Precompiled by CoolSpy3/hmmm-preprocessor with features: all
+0 pushr  r1 r15   # IMPORTANT
+1 popr   r0 r15   # DO THING
+2 read   r3       # BE AWESOME
+3 read   r4
+4 calln  r14 5
+
+# REALLY COOL CODE
+# func: # REALLY COOL CODE# REALLY COOL CODE
+5 add    r1 r2 r3
+6 addn   r1 1
+7 setn   r2 2
+8 jeqzn  5
+9 jumpr  r14

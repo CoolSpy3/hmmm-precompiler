@@ -1,0 +1,13 @@
+push r1 # IMPORTANT
+pop r0 # DO THING
+in r3 # BE AWESOME
+read r4
+call func
+
+    # REALLY COOL CODE
+func: # REALLY COOL CODE# REALLY COOL CODE
+add r1 r2 r3
+add r1 1
+set r2 2
+jz func
+ret
